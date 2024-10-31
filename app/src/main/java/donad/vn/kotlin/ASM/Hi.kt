@@ -36,7 +36,7 @@ fun Hi(navController: NavController) {
             painter = painterResource(id = R.drawable.background),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
-            contentScale = ContentScale.Crop // Để ảnh phủ đầy màn hình
+            contentScale = ContentScale.Crop // Để ảnh phủ đầy màn hình cho no vip
         )
         Column(
             modifier = Modifier
